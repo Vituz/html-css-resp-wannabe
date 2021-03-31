@@ -135,12 +135,12 @@ img {
   }
 
  
-/* BLOCCO PERCHE */
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  margin-top: 10px;
-}
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 10px;
+  }
 
 
 

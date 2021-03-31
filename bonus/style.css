@@ -72,6 +72,78 @@ img {
   clear: both;
 }
 
+@media screen and (max-width: 768px){
+  /* COMMON */
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 10px 10px;
+  }
+
+  .row h3{
+    font-size: 20px;
+  }
+
+  .row img{
+    /* dimensionamento immagini */
+    height: 120px;
+    margin-top: 20px;
+  }
+
+  .row .left, .row .right, .row .central,
+  .row .first, .row .second, .row .third{
+    font-size: 12px;
+  }
+
+  /* BLOCCO LEZIONI */
+  #lezioni.container, #why.container.grey{
+    background-color: rgb(140, 230, 192);
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+
+  .container{
+    width: 100%;
+    margin: auto;
+  }
+
+ 
+
+  /* BLOCCO STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  .container.grey {
+    background-color: rgb(215, 227, 241);
+  }
+
+ 
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 10px;
+  }
+
+}
+
+
 @media screen and (max-width: 420px){
 
   /* COMMON */
@@ -135,13 +207,11 @@ img {
   }
 
  
-/* BLOCCO PERCHE */
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  margin-top: 10px;
-}
-
-
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 10px; 
+  }
 
 }
