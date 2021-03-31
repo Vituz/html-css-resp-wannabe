@@ -89,13 +89,13 @@ img {
   }
 
   .row h3{
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .row img{
     /* dimensionamento immagini */
     height: 120px;
-    margin-top: 20px;
+    margin-top: 24px;
   }
 
   .row .left, .row .right, .row .central,
